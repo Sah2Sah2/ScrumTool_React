@@ -1,0 +1,64 @@
+/* Task Form Specific Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: black;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  select {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
